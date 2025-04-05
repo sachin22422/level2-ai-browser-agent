@@ -34,16 +34,17 @@ level2_ai_agent_final/
 │   ├── actions/
 │   │   ├── native_browser_amazon.py   # Full Amazon automation flow
 │   │   ├── get_mouse_pos.py           # Helper to detect screen coords
-│   │   └── assets/                    # Images for image recognition
-│   ├── browser_control.py            # Calls the correct script
+│   │   └── assets/                    # Images for image recognition (multi-scale)
+│   ├── browser_control.py            # Calls the correct script based on command
 │   ├── interact_api.py               # POST /interact logic
-│   ├── extract_api.py                # GET /extract mock
+│   ├── extract_api.py                # GET /extract mock response
 │   └── main.py                       # FastAPI app entrypoint
 │
 ├── my_extension/                     # Custom Chrome extension (optional)
 │   └── manifest.json
-├── requirements.txt
-└── README.md
+├── requirements.txt                  # All dependencies
+└── README.md                         # Project documentation
+
 
 
 ---
