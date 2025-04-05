@@ -66,8 +66,6 @@ pip install -r requirements.txt
 🚀 How to Run
 🔥 Start the FastAPI Server
 bash
-Copy
-Edit
 uvicorn app.main:app --port 8001 --reload
 
 
@@ -81,8 +79,6 @@ Search for "iPhone 15"
 Returns:
 
 json
-Copy
-Edit
 {
   "platform": "Amazon",
   "products": [
@@ -99,8 +95,6 @@ Edit
 You can launch Chrome with a proxy and a custom extension:
 
 bash
-Copy
-Edit
 $env:CHROME_PROXY="http://123.45.67.89:8080"   # PowerShell
 # or
 set CHROME_PROXY=http://123.45.67.89:8080      # CMD
