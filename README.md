@@ -76,7 +76,7 @@ Login to Amazon
 
 Search for "iPhone 15"
 
-GET /extract
+# 4. GET /extract
 Returns:
 
 json
