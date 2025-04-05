@@ -29,6 +29,22 @@ This project is my submission for **Level 2 of the Crustdata AI Agent Build Chal
 
 ## 📁 Project Structure
 
+level2_ai_agent_final/
+├── app/
+│   ├── actions/
+│   │   ├── native_browser_amazon.py   # Full Amazon automation flow
+│   │   ├── get_mouse_pos.py           # Helper to detect screen coords
+│   │   └── assets/                    # Images for image recognition
+│   ├── browser_control.py            # Calls the correct script
+│   ├── interact_api.py               # POST /interact logic
+│   ├── extract_api.py                # GET /extract mock
+│   └── main.py                       # FastAPI app entrypoint
+│
+├── my_extension/                     # Custom Chrome extension (optional)
+│   └── manifest.json
+├── requirements.txt
+└── README.md
+
 
 ---
 
@@ -52,12 +68,7 @@ bash
 Copy
 Edit
 uvicorn app.main:app --port 8001 --reload
-🚀 How to Run
-🔥 Start the FastAPI Server
-bash
-Copy
-Edit
-uvicorn app.main:app --port 8001 --reload
+
 
 Launch Chrome with optional proxy + extension
 
