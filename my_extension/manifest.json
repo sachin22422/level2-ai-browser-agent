@@ -1,0 +1,9 @@
+{
+  "manifest_version": 2,
+  "name": "Dummy Extension",
+  "version": "1.0",
+  "description": "This is a dummy extension for Level 2",
+  "browser_action": {
+    "default_title": "Dummy"
+  }
+}
