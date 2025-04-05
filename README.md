@@ -113,9 +113,6 @@ This agent has been rigorously tested on:
 
 Using both image templates and coordinate-based fallback logic to ensure consistent automation across display settings.
 
-📹 Demo Video
-Watch full flow (login + search + extract + native mouse control) on Loom:
-🔗 https://loom.com/share/your-demo-link
 
 🧠 Summary
 This Level 2 AI Agent demonstrates full native browser automation using OS-level APIs with pyautogui + OpenCV, structured FastAPI endpoints, and fallback logic for robustness. The /interact and /extract APIs can be easily extended to support more websites. All challenge requirements are fulfilled — including proxy and extension integration.
